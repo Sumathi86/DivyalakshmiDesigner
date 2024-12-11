@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+    <main>
+        <p>
+            <strong>Contact Us:</strong> <br>
+            <a href="tel:9095040842" style="text-decoration: none; color: #6a5acd;">
+                <img src="phone-icon.png" alt="Phone Icon" style="width: 20px; vertical-align: middle;"> 
+                9095040842
+            </a>
+        </p>
+        <form id="loginForm">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" placeholder="Enter your phone number" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        <p id="message"></p>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
